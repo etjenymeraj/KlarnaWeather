@@ -1,0 +1,68 @@
+{
+  "configurations" : [
+    {
+      "id" : "2E692CFC-CB15-4205-B838-00C5F32FCF02",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "language" : "en",
+    "region" : "DE",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:KlarnaWeather.xcodeproj",
+      "identifier" : "FF8C04F72AA0773900C134B0",
+      "name" : "KlarnaWeather"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:KlarnaWeather.xcodeproj",
+        "identifier" : "FF8C05082AA0773A00C134B0",
+        "name" : "KlarnaWeatherTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:KlarnaWeather.xcodeproj",
+        "identifier" : "FF8C05122AA0773A00C134B0",
+        "name" : "KlarnaWeatherUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Utilities",
+        "identifier" : "UtilitiesTests",
+        "name" : "UtilitiesTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:NetworkService",
+        "identifier" : "NetworkServiceTests",
+        "name" : "NetworkServiceTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:CurrentWeather",
+        "identifier" : "CurrentWeatherTests",
+        "name" : "CurrentWeatherTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:WeatherSearch",
+        "identifier" : "WeatherSearchTests",
+        "name" : "WeatherSearchTests"
+      }
+    }
+  ],
+  "version" : 1
+}
